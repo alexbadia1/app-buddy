@@ -13,16 +13,7 @@ import { CopyTextContainer } from '../components/CopyTextContainer';
 
 import './index.css';
 
-declare var chrome: any;
-
 export function App() {
-  useEffect(() => {
-    if (chrome && chrome.tabs) {
-      chrome.sidePanel
-        .setPanelBehavior({ openPanelOnActionClick: true })
-        .catch((error: any) => console.error(error));
-    }
-  }, [chrome]);
 
   const [focusedTab, setFocusedTab] = React.useState(0);
 

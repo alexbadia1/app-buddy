@@ -5,8 +5,10 @@
   "manifest_version": 3,
   "author": "Alex Badia",
   "permissions": ["tabs", "activeTab", "scripting", "sidePanel"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
   "action": {
-    "default_popup": "index.html",
     "default_title": "Application Buddy"
   },
   "side_panel": {
