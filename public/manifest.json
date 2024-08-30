@@ -1,0 +1,15 @@
+{
+  "name": "Application Buddy",
+  "version": "1.0.0",
+  "description": "Hotbar for common application",
+  "manifest_version": 3,
+  "author": "Alex Badia",
+  "permissions": ["tabs", "activeTab", "scripting", "sidePanel"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Application Buddy"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  }
+}

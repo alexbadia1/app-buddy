@@ -1,0 +1,42 @@
+.my-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.my-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 2px;
+  margin-left: 12px;
+}
+
+.my-card-subheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+
+  font-size: 10px;
+  margin: 4px 0px;
+  margin-left: 20px;
+}
+
+.my-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  font-size: 10px;
+  margin-left: 32px;
+}

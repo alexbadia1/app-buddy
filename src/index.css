@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --opacity: 0.55;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 11px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Toastify */
+
+.Toastify__toast-container {
+  width: 120px !important;
+  text-align: center !important;
+  transform: translateX(35vw) !important;
+}
+
+.Toastify__toast {
+  padding: 0px !important;
+}
+
+.Toastify__close-button {
+  display: none !important;
+}
+
+/* Daisy UI Accordian */
+
+.collapse {
+  border: none !important;
+  outline: none !important;
+}
+
+.collapse-title {
+  font-size: 14px !important;
+  min-width: 0px !important;
+}

@@ -1,0 +1,26 @@
+.copytextcontainer {
+  width: fit-content;
+  height: auto;
+  padding: 2px 8px;
+
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: transparent;
+
+  font-size: inherit;
+  line-height: 1.2;
+  white-space: pre-wrap;
+  word-break: break-all;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.copytextcontainer:hover {
+  background-color: rgba(204, 246, 255, var(--opacity));
+}
+
+.collapse-title, :where(.collapse > input[type="checkbox"]), :where(.collapse > input[type="radio"]) {
+  min-height: 0px !important;
+}
