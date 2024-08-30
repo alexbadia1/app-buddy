@@ -22,7 +22,7 @@ For self usage you will need a basic understanding of:
 
 For example, to update the experience, change the PROFESSIONAL_EXPERIENCE constant:
 
-```json
+```ts
 export const PROFESSIONAL_EXPERIENCE: ProfessionalExperience[] = [
   {
     title: 'Graduate Teaching Assistant',
