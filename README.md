@@ -40,6 +40,8 @@ export const PROFESSIONAL_EXPERIENCE: ProfessionalExperience[] = [
 
 This would display the following experience:
 
+![image](https://github.com/user-attachments/assets/498adc90-86c0-4f30-8403-a5c39c961669)
+
 
 ## Deployment
 
