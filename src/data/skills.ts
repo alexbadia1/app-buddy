@@ -25,8 +25,8 @@ export const SKILLS: string[] = [
   "Flutter",
   "Redux",
   "Bootstrap",
-  "Tailwind",
-  "Material-UI",
+  "Tailwind CSS",
+  "Material UI",
   "Selenium",
 
   // Backend
@@ -69,3 +69,5 @@ export const SKILLS: string[] = [
   "MapReduce",
   "Distributed File Systems",
 ]
+
+export const SKILLS_STRING = SKILLS.join(", ");

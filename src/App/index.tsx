@@ -7,14 +7,14 @@ import { SHORT_ANSWERS } from '../data/shortanswers';
 import { ShortAnswerCard } from '../components/ShortAnswerCard';
 import { ProjectCard } from '../components/ProjectCard';
 import { PROJECTS } from '../data/projects';
-import { SKILLS } from '../data/skills';
+import { SKILLS, SKILLS_STRING } from '../data/skills';
 import { TabBody } from '../components/TabBody';
 import { CopyTextContainer } from '../components/CopyTextContainer';
 
 import './index.css';
+import { toast } from 'react-toastify';
 
 export function App() {
-
   const [focusedTab, setFocusedTab] = React.useState(0);
 
   const tabs = [
@@ -34,6 +34,18 @@ export function App() {
       ))}
     </TabBody>,
     <TabBody>
+      <button
+      style={{margin: '8px 0px', color: 'black', backgroundColor: 'white', border: 'none', padding: '2px 4px', borderRadius: '8px'}}
+        onClick={() => {
+          try {
+            navigator.clipboard.writeText(SKILLS_STRING);
+            toast.dismiss();
+            toast('Copied to clipboard!');
+          } catch (err) {
+            toast('Error');
+          }
+        }}
+      >Copy All Skills</button>
       {SKILLS.map((skill, i) => (
         <CopyTextContainer text={skill} />
       ))}
