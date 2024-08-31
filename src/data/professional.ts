@@ -28,7 +28,7 @@ export const PROFESSIONAL_EXPERIENCE: ProfessionalExperience[] = [
     startDate: '10/01/2022',
     endDate: '08/01/2023',
     description: [
-      '•Spearheaded the migration of a development environment from an on-premises Kubernetes cluster to AWS ECS with a focus on optimizing costs by auto-scaling and pruning extraneous microservices',
+      '• Spearheaded the migration of a development environment from an on-premises Kubernetes cluster to AWS ECS with a focus on optimizing costs by auto-scaling and pruning extraneous microservices',
       '• Improved app performance 80%+ by caching (Redis) frequent calculations and debouncing redundant UI requests',
       '• Accelerated product development for financial engineers by creating new and streamlining existing internal UIs (React)',
       '• Enhanced data visualization capabilities for the flagship product, Numerix Oneview, using Snowflake and Tableau',
@@ -68,7 +68,7 @@ export const PROFESSIONAL_EXPERIENCE: ProfessionalExperience[] = [
     startDate: '01/01/2022',
     endDate: '05/01/2022',
     description: [
-      '•Acquired in January 2024 by Fortinet and rebranded to FortiCSPM (Cloud Security Posture Management)',
+      '• Acquired in January 2024 by Fortinet and rebranded to FortiCSPM (Cloud Security Posture Management)',
       '• Eliminated manual deployment of microservices (Spring Boot) to AWS EKS development environments with GitLab CI/CD pipelines to automates tests (across Bazel, Gradle, Maven), Docker image builds, and Helm deployments',
       '• Debugged multi-cloud (AWS, Azure, GCP) infrastructure configuration polling microservices with Postman',
     ],
