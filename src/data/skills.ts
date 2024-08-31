@@ -3,13 +3,10 @@ export const SKILLS: string[] = [
   // Skills
   "Algorithms",
   "Data Structures",
-  "Object-Oriented Programming",
-  "Functional Programming",
-  "Test-Driven Development",
-  "Agile Development",
+  "Object Oriented Programming",
+  "Agile",
   "Git",
   "Jira",
-  "Agile Methodologies",
 
   // Languages
   "Python",

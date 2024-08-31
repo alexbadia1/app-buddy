@@ -4,6 +4,7 @@ import { ProfessionalExperience } from '../../data/professional';
 
 import '../../index.css';
 import { Card } from '../Card';
+import { toast } from 'react-toastify';
 
 export interface ProfessionalExperienceCard {
   data: ProfessionalExperience;
@@ -31,6 +32,15 @@ export function ProfessionalExperienceCard({
       body={data.description.map((d) => (
         <CopyTextContainer text={d} />
       ))}
+      bodyAction={() => {
+        try {
+          navigator.clipboard.writeText(data.description.join('\n'));
+          toast.dismiss();
+          toast('Copied to clipboard!');
+        } catch (err) {
+          toast('Error');
+        }
+      }}
     />
   );
 }
