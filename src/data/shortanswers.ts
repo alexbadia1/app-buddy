@@ -5,6 +5,20 @@ export interface ShortAnswer {
 
 export const SHORT_ANSWERS: ShortAnswer[] = [
   {
+    question: 'Do you have any skills or experience not captured in your resume that you think are relevant for this role?',
+    answer: `
+There's 2 things, I don't think are captured well in my resume:
+
+(1) 2022 was a busy year: 
+
+Monday through Wednesday, I was a full-stack swe intern at Canon while, Wednesday through Friday, I was an associate backend swe at Concourse Labs. I spent my in-between time, founding the cybersecurity club, planning computer science club events (i.e. tours of IBM Poughkeepsie, hackathons, networking panels), finalizing quantum computing research for upcoming conferences, redesigning the student government website, and studying for classes.
+
+(2) I'm a serial project builder
+
+I love working on a variety of projects, which you can explore on my website (it's 🍎 themed 😉): alexbadia.com.
+    `.trim(),
+  },
+  {
     question: 'Anything else you want to share?',
     answer: `
 Dear Whomever It May Concern,
@@ -50,4 +64,12 @@ Moreover, I focused on cost savings by pruning extraneous microservices and addi
 As an entry level SWE without access to the budget to measure cost savings, I just focused on what I could control.
     `.trim(),
   },
+  {
+    question: 'Why do you want to work at Sunshine?',
+    answer: `
+I have a compulsion to automate redunant tasks. You know the saying, "Spend 10 hours to automate a take that takes 5 minutes." Recently, I spent 3 hours learning how to make a chrome extension, because Simplify occasionally will crash when all I needed was to grab a link from my profile.
+
+Heck, if you checkout the project on my GitHub, you'll probably see this very response saved in a shortanswers.ts so I'll never have to write it again!
+    `.trim()
+  }
 ];
